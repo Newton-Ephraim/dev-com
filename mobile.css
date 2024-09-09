@@ -1,0 +1,103 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ nav ul{
+      position: fixed;;
+      background-color: midnightblue;
+      margin: 0;
+      top: -1.5rem;
+    }
+    .logo {
+      margin-top: 1rem;
+      width: 10rem;
+    }
+    .link{
+      display: none;
+    }
+    select{
+      display: none;
+    }
+    #section1{
+        width: 100vw;
+        position: relative;
+        left: -4.97rem;
+        top: 4.8rem;
+        background-image: url(./images/Newton.jpg);
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        z-index: -1;
+    }
+    .overlay{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left:0;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.79);
+    } 
+    #section1 h1{
+        position: absolute;
+        top: 40rem;
+        left: 0;
+        z-index: 1;
+        color: white;
+    }
+    #section1 img{
+        display: none;
+      }
+      #section2{
+        position: relative;
+      }
+      #section2 .main .left img{
+        position: absolute;
+        top: -55rem;
+        left: -4rem;
+        width: 95vw;
+      }
+      #section2 .main .left .lefttext{
+        position: absolute;
+        top: -17rem;
+        left: -3rem;
+        width: 95vw;
+      }
+      #section2 .main .left .lefttext h2{
+        margin-bottom: 1.5rem;
+      }
+      #section2 .main .right img{
+        position: absolute;
+        top: 1rem;
+        left: -4rem;
+        width: 95vw;
+      }
+      #section2 .main .right .righttext{
+        position: absolute;
+        top: 38rem;
+        left: -3rem;
+        width: 95vw;
+      }
+      #section2 .main .right .righttext h2{
+        margin-bottom: 1.5rem;
+      }
+footer{
+        position: absolute;
+        top: 195rem;
+        left: 0;
+        text-align: center;
+        margin: 0;
+        /* padding-right: 5%; */
+        width: 100%;
+        color: midnightblue;
+        background-color: aliceblue;
+      }
+.para1{
+    display: none;
+}
+.para2{
+  display: block;
+    font-size: 2rem;
+}

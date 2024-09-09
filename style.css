@@ -1,0 +1,155 @@
+*{
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  /* margin: 0 50px 0 50px; */
+  background-color: #faf9f6;
+  /* display: flex;
+  flex-direction: column; */
+  /* min-height: 95vh; */
+}
+nav{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: -1rem;
+  right: 0;
+  z-index: 1;
+}
+ul{
+  padding: 1.5rem 4rem 1.5rem 4rem;
+  list-style: none;
+  /* background-color: white; */
+  overflow: hidden;
+  width: 100%;
+  background-color: aliceblue;
+}
+ul li{
+  float:left;
+}
+nav ul li img{
+  margin-right: 15rem;
+}
+li a{
+  text-decoration: none;
+  display: block;
+  color:black;
+  padding: 9px;
+  font-family:sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.link{
+  margin-top: .5rem;
+}
+select{
+  border: none;
+  background-color: aliceblue;
+  width: 10.5rem;
+  cursor: pointer;
+  margin-top: 1.3rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-right: 32rem;
+}
+.postcode{
+  padding: .4rem;
+  border-radius: 0.3rem;
+  border: 1px solid rgb(187, 184, 184);
+  margin-top: .8rem;
+}
+.check{
+  border: 1px solid green;
+  border-radius: .3rem;
+  color: green;
+  padding: .3rem;
+  background-color: white;
+  margin-top: .8rem;
+  margin-left: .5rem;
+}
+section #section1{
+  position: relative;
+}
+#section1 h1{
+  position: absolute;
+  top: 18rem;
+  left: 8%;
+  font-size: 7rem;
+  text-align: center;
+}
+#section1 img{
+  position: absolute;
+  top: 8rem;
+  left: 60%;
+}
+section #section2{
+  position: relative;
+}
+.main {
+  position: absolute;
+  top: 65rem;
+  flex: 1;
+}
+.tile-image1 {
+  position: absolute;
+  width: 50%;
+  border-radius: .5rem;
+  left: 3.5%;
+}
+.lefttext{
+  position: relative;
+  left: 70rem;
+  top: 2rem;
+}
+.card-title{
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+.card-text{
+  font-size: 2.5rem;
+  max-width: 40ch;
+}
+.tile-image2 {
+  position: absolute;
+  width: 50%;
+  border-radius: .5rem;
+  left: 63%;
+  top: 45rem;
+}
+.righttext{
+  position: relative;
+  left: -93%;
+  top: 30rem;
+  
+}
+footer {
+  position: relative;
+  top: 150rem;
+  text-align: right;
+  padding-right: 5%;
+  color: midnightblue;
+  background-color: aliceblue;
+}
+footer p{
+  font-size: 3rem;
+}
+.card {
+  width: 50%;
+}
+.creative{
+  color: midnightblue;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+  margin-left: 1rem;
+}
+.para2{
+  display: none;
+}
